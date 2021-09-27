@@ -1,0 +1,169 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\sgude\\source\\repos\\FrameworkDAL\\MyTradeJournal.Tests\\MyTradeJournal.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\sgude\\source\\repos\\FrameworkDAL\\FrameworkDAL\\FrameworkDAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sgude\\source\\repos\\FrameworkDAL\\FrameworkDAL\\FrameworkDAL.csproj",
+        "projectName": "FrameworkDAL",
+        "projectPath": "C:\\Users\\sgude\\source\\repos\\FrameworkDAL\\FrameworkDAL\\FrameworkDAL.csproj",
+        "packagesPath": "C:\\Users\\sgude\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sgude\\source\\repos\\FrameworkDAL\\FrameworkDAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\sgude\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Update-Policy-Sor\\src\\VMware.UEM.PlatformUpdatesManagement\\bin\\Debug": {},
+          "C:\\newDsmService\\client\\src\\VMware.UEM.DesiredStateManagement.APIClient\\bin\\x64\\Debug": {},
+          "C:\\newDsmService\\src\\VMware.UEM.DesiredStateManagement\\bin\\Debug": {},
+          "https://artifactory.air-watch.com/artifactory/api/nuget/nuget-gallery": {},
+          "https://artifactory.air-watch.com/artifactory/api/nuget/nuget-local-aw": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\sgude\\source\\repos\\FrameworkDAL\\MyTradeJournal.Tests\\MyTradeJournal.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sgude\\source\\repos\\FrameworkDAL\\MyTradeJournal.Tests\\MyTradeJournal.Tests.csproj",
+        "projectName": "MyTradeJournal.Tests",
+        "projectPath": "C:\\Users\\sgude\\source\\repos\\FrameworkDAL\\MyTradeJournal.Tests\\MyTradeJournal.Tests.csproj",
+        "packagesPath": "C:\\Users\\sgude\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sgude\\source\\repos\\FrameworkDAL\\MyTradeJournal.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\sgude\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Update-Policy-Sor\\src\\VMware.UEM.PlatformUpdatesManagement\\bin\\Debug": {},
+          "C:\\newDsmService\\client\\src\\VMware.UEM.DesiredStateManagement.APIClient\\bin\\x64\\Debug": {},
+          "C:\\newDsmService\\src\\VMware.UEM.DesiredStateManagement\\bin\\Debug": {},
+          "https://artifactory.air-watch.com/artifactory/api/nuget/nuget-gallery": {},
+          "https://artifactory.air-watch.com/artifactory/api/nuget/nuget-local-aw": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\sgude\\source\\repos\\FrameworkDAL\\MyTradeJournal\\MyTradeJournal.csproj": {
+                "projectPath": "C:\\Users\\sgude\\source\\repos\\FrameworkDAL\\MyTradeJournal\\MyTradeJournal.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Microsoft.AspNet.Mvc": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
+            "Microsoft.AspNet.Razor": {
+              "target": "Package",
+              "version": "[3.2.7, )"
+            },
+            "Microsoft.AspNet.WebPages": {
+              "target": "Package",
+              "version": "[3.2.7, )"
+            },
+            "Microsoft.Web.Infrastructure": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\sgude\\source\\repos\\FrameworkDAL\\MyTradeJournal\\MyTradeJournal.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sgude\\source\\repos\\FrameworkDAL\\MyTradeJournal\\MyTradeJournal.csproj",
+        "projectName": "MyTradeJournal",
+        "projectPath": "C:\\Users\\sgude\\source\\repos\\FrameworkDAL\\MyTradeJournal\\MyTradeJournal.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\sgude\\source\\repos\\FrameworkDAL\\FrameworkDAL\\FrameworkDAL.csproj": {
+                "projectPath": "C:\\Users\\sgude\\source\\repos\\FrameworkDAL\\FrameworkDAL\\FrameworkDAL.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    }
+  }
+}
