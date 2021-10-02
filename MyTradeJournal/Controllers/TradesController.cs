@@ -9,11 +9,11 @@ using System.Web;
 using System.Web.Mvc;
 using FrameworkDAL;
 
-namespace MyTradeJournal.Models
+namespace MyTradeJournal
 {
     public class TradesController : Controller
     {
-        private Model1 db = new Model1();
+        private Model2 db = new Model2();
 
         // GET: Trades
         public async Task<ActionResult> Index()
@@ -47,7 +47,7 @@ namespace MyTradeJournal.Models
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<ActionResult> Create([Bind(Include = "TradeId,TICKR,EntryPattern,EntryPrice,ExitPrice,EntryDateTime,ExitDateTime,Description,Notes,ImageLink")] Trade trade)
+        public async Task<ActionResult> Create([Bind(Include = "TradeId,TICKR,EntryPattern,EntryPrice,ExitPrice,EntryDateTime,ExitDateTime,Description,Notes,ImageLink,Result")] Trade trade)
         {
             if (ModelState.IsValid)
             {
@@ -79,7 +79,7 @@ namespace MyTradeJournal.Models
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<ActionResult> Edit([Bind(Include = "TradeId,TICKR,EntryPattern,EntryPrice,ExitPrice,EntryDateTime,ExitDateTime,Description,Notes,ImageLink")] Trade trade)
+        public async Task<ActionResult> Edit([Bind(Include = "TradeId,TICKR,EntryPattern,EntryPrice,ExitPrice,EntryDateTime,ExitDateTime,Description,Notes,ImageLink,Result")] Trade trade)
         {
             if (ModelState.IsValid)
             {

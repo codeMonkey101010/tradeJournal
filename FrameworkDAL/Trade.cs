@@ -35,5 +35,11 @@ namespace FrameworkDAL
 
         [StringLength(255)]
         public string ImageLink { get; set; }
+
+        [StringLength(10)]
+        public string Result { get; set; }
+
+        [StringLength(10)]
+        public string Category { get; set; }
     }
 }
