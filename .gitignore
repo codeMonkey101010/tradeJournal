@@ -150,6 +150,7 @@ MyTradeJournal/bin/
 MyTradeJournal/obj/
 FrameworkDAL/bin/
 FrameworkDAL/obj
+.vs/
 
 # Others
 *.[Cc]ache
