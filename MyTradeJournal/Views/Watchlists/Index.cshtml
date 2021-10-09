@@ -1,0 +1,22 @@
+﻿@model IEnumerable<FrameworkDAL.Watchlist>
+
+@{
+    ViewBag.Title = "Interesting Plays";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Interesting Plays </h2>
+
+<p>
+    @Html.ActionLink("Add New", "Create")
+</p>
+<table class="table">
+@foreach (var item in Model) {
+<tr>
+    <td>
+        @Html.ActionLink(item.Tickr, "Details", new { id = item.WatchlistId }) 
+    </td>
+</tr>
+}
+
+</table>

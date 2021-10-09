@@ -14,6 +14,7 @@ namespace FrameworkDAL
 
         public virtual DbSet<C__MigrationHistory> C__MigrationHistory { get; set; }
         public virtual DbSet<Trade> Trades { get; set; }
+        public virtual DbSet<Watchlist> Watchlists { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

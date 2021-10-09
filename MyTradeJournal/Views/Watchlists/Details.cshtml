@@ -1,0 +1,21 @@
+﻿@model List<FrameworkDAL.Watchlist>
+
+@{
+    ViewBag.Title = Model[0].Tickr;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<br />
+<br />
+
+@foreach (var item in Model)
+{
+    <div class="hover_img">
+        <a href="@item.ImageLink">@item.Tickr @item.EntryDate.Value.ToShortDateString() </a>
+    </div>
+}
+<br />
+<br />
+<p>
+    @Html.ActionLink("Tickrs list", "Index")
+</p>
